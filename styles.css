@@ -1,0 +1,40 @@
+:root{
+    --olive: #30362F;
+    --field: #625834;
+    --sheen: #A59132;
+    --light_yellow: #fffbdb;
+
+}
+body {
+    background-color: var(--light_yellow);
+}
+.sidebar {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 1;
+    left: 0;
+    background-color: var(--field);
+    text-align: left;
+    color: var(--sheen);
+    font-size: large;
+    font-family: "Roboto";
+    padding-left: 5px;
+
+}
+a {
+    color: var(--sheen);
+    font-family: "Roboto";
+    text-decoration: none; /* Removes the underline */
+}
+.header
+{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    background-color: var(--field);
+    color: var(--sheen);
+    font-size: larger;
+    
+}
